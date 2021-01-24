@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+prettier --check **/*.{js,json,yml,yaml,md} $@
+
+prettier --check --parser=json $@ \
+  .renovaterc \
+  .optipackrc

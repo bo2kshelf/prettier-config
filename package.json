@@ -1,0 +1,55 @@
+{
+  "name": "@bo2kshelf/prettier-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "me@sno2wman.dev",
+    "name": "SnO2WMaN"
+  },
+  "homepage": "https://github.com/bo2kshelf/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bo2kshelf/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bo2kshelf/prettier-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "files": [
+    ".prettierrc.js"
+  ],
+  "scripts": {
+    "validate": "scripty",
+    "fmt": "run-s -cn fmt:*",
+    "fmt:prettier": "yarn lint:prettier --write",
+    "lint": "scripty",
+    "lint:prettier": "scripty",
+    "lint:renovate": "scripty"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "@shopify/prettier-config": "^1.1.2"
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "0.7.2",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/commit-analyzer": "8.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.1.2",
+    "@semantic-release/npm": "7.0.8",
+    "@semantic-release/release-notes-generator": "9.0.1",
+    "ajv-cli": "^4.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.1.2",
+    "prettier-plugin-optipack": "1.1.2",
+    "scripty": "2.0.0",
+    "semantic-release": "17.2.3"
+  }
+}
