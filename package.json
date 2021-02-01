@@ -52,5 +52,8 @@
     "prettier-plugin-optipack": "1.1.2",
     "scripty": "2.0.0",
     "semantic-release": "17.2.3"
+  },
+  "peerDependencies": {
+    "prettier": "2"
   }
 }
