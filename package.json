@@ -23,12 +23,12 @@
     ".prettierrc.js"
   ],
   "scripts": {
-    "validate": "scripty",
     "fmt": "run-s -cn fmt:*",
     "fmt:prettier": "yarn lint:prettier --write",
     "lint": "scripty",
     "lint:prettier": "scripty",
-    "lint:renovate": "scripty"
+    "lint:renovate": "scripty",
+    "validate": "scripty"
   },
   "engines": {
     "node": ">=12"
